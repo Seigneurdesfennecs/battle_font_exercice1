@@ -1,0 +1,23 @@
+
+
+.sixtyhour{
+  font-family: 'sixtyhour';
+  font-variation-settings: "SCAN"-70,"BLED"50;
+}
+
+ 
+.mixal{
+  font-family: 'mixal';
+  font-variation-settings: "wght"400;
+}
+  
+h2{
+  font-size: 150px;
+  color:#c9cea9;
+  
+}
+
+#PREMIER{
+  color:#deac89;
+  transform: rotate(90deg);/*inclinaison */
+}
