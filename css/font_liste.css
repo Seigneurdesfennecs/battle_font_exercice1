@@ -1,0 +1,83 @@
+/*Ce fichier contient tous les liens vers les fichiers des différentes fonts variables*/
+
+
+
+@font-face {
+  font-family: 'sixtyhour';
+  src: url(../font/sixtyhour/Sixtyfour.woff2) format('woff2');
+   /*
+  axes : 
+  "SCAN" : épaisseur des lignes((-53)-100)
+  "BLED": longueur des lignes(0-100);
+  */
+}
+
+
+
+
+@font-face {
+  font-family: 'mixal';
+  src: url(../font/mixal/MixalGX.woff2) format('woff2');
+  /*
+  axe : 
+  "wght" : graisse et largeur des caractères(100-900)
+  */
+}
+
+
+.sixtyhour{
+  font-family: 'sixtyhour';
+  font-variation-settings: "SCAN"-70,"BLED"50;
+}
+
+ 
+.mixal{
+  font-family: 'mixal';
+  font-variation-settings: "wght"400;
+}
+  
+h2{
+    position:absolute ;
+    left:25%;
+  font-size: 150px;
+  color:#c9cea9;
+  z-index: -1;
+
+  
+}
+
+h4{
+    position: fixed;
+    left:25%;
+  font-size: 150px;
+  color:#c9cea9;
+  z-index: -1;
+  transform: rotate(20deg);/*inclinaison */;
+  font-variation-settings: "SCAN"-90,"BLED"100;
+}
+
+#PREMIER{
+    position: fixed; 
+    top: 20%;
+    left: 40%;
+    font-size: 500x;
+  color:#deac89;
+  transform: rotate(90deg);/*inclinaison */;
+}
+
+h3{
+z-index: -1;
+color:#c9cea9;
+    font-size: 300px;
+    font-variation-settings:"wght"900 ;
+}
+
+#blbl{
+    font-size: large;
+    position: sticky;
+    color:#824ad5;
+    transform: rotate(-20deg);/*inclinaison */;
+    opacity: 0.3;
+    font-size: 500px;
+    mix-blend-mode: exclusion;
+}
